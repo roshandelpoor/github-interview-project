@@ -30,6 +30,9 @@ GITHUB_ACCOUNT_CLASSIC_TOKEN='ghp_XSYfwsh7OseZBMgl8rEmMYPXhc4r61VBsu'
 
 ```bash
 git clone https://github.com/roshandelpoor/github-interview-project.git
+OR
+git clone git@github.com:roshandelpoor/github-interview-project.git
+
 cd github-interview-project
 ```
 
@@ -79,6 +82,9 @@ sudo docker-compose exec web composer run-script test
 
 ```bash
 git clone https://github.com/roshandelpoor/github-interview-project.git
+OR
+git clone git@github.com:roshandelpoor/github-interview-project.git
+
 cd github-interview-project
 ```
 
