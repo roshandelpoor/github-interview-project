@@ -1,0 +1,12 @@
+version: '3'
+services:
+  web:
+    container_name: GitHub_Interview_V1
+    build:
+      context: ./DovOps
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+        - ./:/var/www/html/
+    tty: true

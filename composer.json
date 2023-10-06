@@ -1,0 +1,30 @@
+{
+  "name": "roshandelpoor/github-interview-project",
+  "description": "Implementation of CRUD operations of github API in a Console Command",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Application\\": "Application/"
+    }
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": [
+      "./vendor/bin/phpcs --standard=psr2 Application/",
+      "./vendor/bin/peridot Application/github/Test/"
+    ]
+  },
+  "require": {
+    "php": "^8.1",
+    "monolog/monolog": "1.25.1",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^7.0",
+    "vlucas/phpdotenv": "^5.5"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.4",
+    "peridot-php/peridot": "^1.19",
+    "eloquent/phony-peridot": "^2.0",
+    "peridot-php/leo": "^1.6"
+  }
+}

@@ -1,0 +1,6 @@
+curl -H \
+-H "Accept: application/vnd.github+json" \
+-H "Authorization: Bearer Yor_Token_Api_gitHub" \
+-H "X-GitHub-Api-Version: 2022-11-28" \
+--data '{"name":"interview_create"}' \
+https://api.github.com/user/repos
