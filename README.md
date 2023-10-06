@@ -41,6 +41,8 @@ cd github-interview-project
 ```bash
 # First -> Build and run
 sudo docker-compose up --build
+sudo chmod 777 -R .
+
 # Next time -> Only run
 sudo docker-compose up -d
 # Down Container
@@ -92,6 +94,7 @@ cd github-interview-project
 
 ```bash
 composer install
+sudo chmod 777 -R .
 ```
 
 2- [ HealthCheck ] Run Application as Web and show url http://localhost:8000/
